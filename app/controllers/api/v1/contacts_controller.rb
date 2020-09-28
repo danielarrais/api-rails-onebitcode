@@ -44,4 +44,10 @@ class Api::V1::ContactsController < Api::V1::ApiController
   rescue ActiveRecord::RecordNotFound => e
     render json: { message: e.message }, status: :not_found
   end
+
+  def require_authorization!
+    unless current_user == @contact.user
+      render json: {}, status: :forbidden
+    end
+  end
 end
