@@ -37,7 +37,7 @@ module ApiRailsOnebitcode
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resources '*', headers: :any, methods: %i(get post put delete options head)
+        resource '*', headers: :any, methods: %i(get post put delete options head)
       end
     end
 
