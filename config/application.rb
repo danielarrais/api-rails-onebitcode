@@ -40,5 +40,7 @@ module ApiRailsOnebitcode
         resources '*', headers: :any, methods: %i(get post put delete options head)
       end
     end
+
+    config.middleware.use Rack::Attack
   end
 end
