@@ -1,24 +1,3 @@
-# README
+## Minicurso de desenvolvimento de APIs Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Este repositório contém os códigos que utilizei para praticar o conteúdo repassado no curso [API Rails 5 Completa - Mini Curso](https://onebitcode.com/course/criando-uma-api-completa-com-rails/). Cada commit feito equivale a uma aula, exceto no caso dos desafios, pois eles podem está dividos em um ou mais commits.
